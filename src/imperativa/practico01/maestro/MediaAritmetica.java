@@ -9,6 +9,13 @@ package imperativa.practico01.maestro;
 
 public class MediaAritmetica {
     public static void main(String[] args) {
+        double n1 = 100.45;
+        double n2 = 80.45;
+        double n3 = 10.45;
+        double n4 = 12.45;
+        double n5 = 14.45;
 
+        double media = (n1 + n2 + n3 + n4 + n5) / 5;
+        System.out.println("La media es " + media);
     }
 }
