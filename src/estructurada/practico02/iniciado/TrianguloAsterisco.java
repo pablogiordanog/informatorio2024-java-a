@@ -1,4 +1,4 @@
-package estructurada.practivo02.iniciado;
+package estructurada.practico02.iniciado;
 
 /**
  * 1. Triangulo de asteriscos : Se le solicita que creen un programa que imprima

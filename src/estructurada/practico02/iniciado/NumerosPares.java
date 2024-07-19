@@ -1,4 +1,4 @@
-package estructurada.practivo02.iniciado;
+package estructurada.practico02.iniciado;
 
 import java.util.Scanner;
 

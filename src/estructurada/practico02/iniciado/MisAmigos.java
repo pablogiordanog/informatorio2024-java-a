@@ -1,4 +1,4 @@
-package estructurada.practivo02.iniciado;
+package estructurada.practico02.iniciado;
 
 /**
  * Mis amigos : Guarde en variables el nombre de N cantidad de amigos,

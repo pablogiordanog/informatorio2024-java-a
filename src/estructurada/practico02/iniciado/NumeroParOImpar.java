@@ -1,4 +1,4 @@
-package estructurada.practivo02.iniciado;
+package estructurada.practico02.iniciado;
 
 /**
  * 3.Suma de números : Realizar un programa que guarde un número en memoria y determine si es par o impar.

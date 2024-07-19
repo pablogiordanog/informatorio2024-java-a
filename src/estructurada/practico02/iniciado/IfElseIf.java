@@ -1,4 +1,4 @@
-package estructurada.practivo02.iniciado;
+package estructurada.practico02.iniciado;
 
 /**
  * 4. De que se trata esto? : Realizar un programa que guarde
