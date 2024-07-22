@@ -1,4 +1,4 @@
-package estructurada.practico02.caballero;
+package estructurada.practico02.maestro;
 
 /**
  * 6. Sera Palíndromo?: Dado un arreglo con caracteres (Formando una palabra) indicar si es o no palíndromo.

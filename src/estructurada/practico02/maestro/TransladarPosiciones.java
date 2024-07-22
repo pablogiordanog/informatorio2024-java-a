@@ -1,4 +1,4 @@
-package estructurada.practico02.caballero;
+package estructurada.practico02.maestro;
 
 import java.util.Arrays;
 
