@@ -6,10 +6,11 @@ public class App {
         Persona persona = new Persona(27439097L, "Giordano Pablo", true);
         persona.setVehiculo(vehiculo);
 
+        persona.getVehiculo().arrancarVehiculo();
         System.out.println("El nombre de la persona es " + persona.getNombre() + '\n'
                          + "Su DNI:" + persona.getDni() + '\n'
                          + (persona.isLicencia()?"Tiene":"No Tiene") + " Licencia de Conducir" + '\n'
-                         + "El vehiculo que posee es de marca:" + persona.getVehiculo().getMarca() + '\n'
+                         + "El vehiculo que posee es de marca:" + persona.getVehiculo().mostrarPorPantallaMarca() + '\n'
                          + "De " + persona.getVehiculo().getCantidadDeRuedas() + " Ruedas" + '\n'
                          + "Km Mínimo es de " + persona.getVehiculo().getKmMinimo() + " y de Máximo " + persona.getVehiculo().getKmMaximo() + ".");
     }
