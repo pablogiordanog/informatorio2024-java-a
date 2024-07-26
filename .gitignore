@@ -4,6 +4,7 @@
 #Archivos de complilacion
 out
 *.class
+*.bkp
 
 ### Mac OS ###
 .DS_Store
