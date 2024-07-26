@@ -1,8 +1,5 @@
-package poo.practico03.iniciado.diagramas;
+package poo.practico03.iniciado;
 
-import poo.practico03.iniciado.Alumno;
-
-import java.util.List;
 import java.util.Map;
 
 public class Curso {

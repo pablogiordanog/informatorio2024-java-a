@@ -1,7 +1,5 @@
 package poo.practico03.iniciado;
 
-import poo.practico03.iniciado.diagramas.Curso;
-
 import java.util.*;
 
 public class App {
