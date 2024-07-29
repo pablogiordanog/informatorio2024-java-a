@@ -54,17 +54,17 @@ public class App {
         System.out.println("Ingreso de Datos de CURSO");
         System.out.println("=========================");
         System.out.print("Ingrese nombre:");
-        String nombre = scanner.next().toString();
+        String nombre = scanner.nextLine();
         if(listCursos.containsKey(nombre)){
             curso = listCursos.get(nombre);
             System.out.print("El curso " + nombre + " cue cargado con anterioridad.");
         }else {
             //Nuevo Curso
             System.out.print("Ingrese descripcion de curso:");
-            String descripcion = scanner.next().toString();
+            String descripcion = scanner.nextLine();
 
             System.out.print("Estado S/N:");
-            String estado = scanner.next().toString();
+            String estado = scanner.nextLine();
             boolean isHabilitado = estado.trim().equals("S");
             curso = new Curso(nombre, isHabilitado, descripcion, new HashMap<>());
             listCursos.put(nombre, curso);
@@ -101,10 +101,10 @@ public class App {
         System.out.println("Ingreso de Datos de Alumno");
         System.out.println("**************************");
         System.out.print("Ingrese nombre:");
-        String nombre = scanner.next();
+        String nombre = scanner.nextLine();
 
         System.out.print("Ingrese apellido:");
-        String apellido = scanner.next();
+        String apellido = scanner.nextLine();
 
         System.out.print("Ingrese edad:");
         int edad = scanner.nextInt();
@@ -192,5 +192,6 @@ public class App {
             terminar = scanner.next();
         }
         listarCursos(cursos);
+        scanner.close();
     }
 }

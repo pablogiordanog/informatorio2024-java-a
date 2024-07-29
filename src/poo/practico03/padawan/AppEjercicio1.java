@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class App {
+public class AppEjercicio1 {
     public static void main(String[] args) {
         ejercicio1();
     }
@@ -127,8 +127,5 @@ public class App {
                 default:break;
             }
         }
-
     }
-
-
 }
